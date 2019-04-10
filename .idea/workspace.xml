@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/xiongya/lambdaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+            <state relative-caret-position="2074">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2202#2203#0" expanded="true" />
@@ -56,6 +56,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -69,6 +72,7 @@
     <option name="width" value="2560" />
     <option name="height" value="1337" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -137,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554863499392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554863661728" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -259,14 +263,11 @@
       <option name="presentableId" value="Default" />
       <updated>1554360756311</updated>
       <workItem from="1554360763817" duration="4942000" />
-      <workItem from="1554858841546" duration="4039000" />
+      <workItem from="1554858841546" duration="4273000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="lambdaTest_test7 - 2019.04.10 at 09h 54m 19s.xml">
-      <configuration name="lambdaTest.test7" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="lambdaTest_test7 - 2019.04.10 at 09h 54m 32s.xml">
       <configuration name="lambdaTest.test7" configurationId="JUnit" />
     </history-entry>
@@ -294,13 +295,15 @@
     <history-entry file="lambdaTest_test10 - 2019.04.10 at 10h 29m 04s.xml">
       <configuration name="lambdaTest.test10" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="lambdaTest_test10 - 2019.04.10 at 10h 30m 21s.xml">
+      <configuration name="lambdaTest.test10" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8981000" />
+    <option name="totallyTimeSpent" value="9215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="837" y="23" width="2560" height="1337" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="2560" height="1337" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24980143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -311,7 +314,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,7 +322,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32931727" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -386,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiongya/lambdaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="151" column="28" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+        <state relative-caret-position="2074">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2202#2203#0" expanded="true" />

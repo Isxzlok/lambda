@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35a3b0f4-b114-4ea5-b01b-96de67b8ba46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/xiongya/lambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/xiongya/lambdaTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -151,7 +149,7 @@
       <updated>1554360756311</updated>
       <workItem from="1554360763817" duration="4942000" />
       <workItem from="1554858841546" duration="4516000" />
-      <workItem from="1566803163220" duration="297000" />
+      <workItem from="1566803163220" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="sss">
       <created>1566803286605</created>
@@ -167,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566803419331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sss">
+      <created>1566803481900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566803481900</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aaa">
+      <created>1566803597648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566803597648</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -218,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sss" />
-    <option name="LAST_COMMIT_MESSAGE" value="sss" />
+    <MESSAGE value="aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
   </component>
   <component name="masterDetails">
     <states>

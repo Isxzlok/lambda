@@ -36,6 +36,8 @@ public class lambdaTest {
         list.forEach((s)->System.out.println(s+";"));
         //在java8中使用双冒号操作符
         list.forEach(System.out::print);
+
+        System.out.println("hshshshhshs");
     }
 
     /**

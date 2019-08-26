@@ -37,7 +37,7 @@ public class lambdaTest {
         //在java8中使用双冒号操作符
         list.forEach(System.out::print);
 
-        System.out.println("hshshshhshs");
+        System.out.println("hshshhshs");
     }
 
     /**

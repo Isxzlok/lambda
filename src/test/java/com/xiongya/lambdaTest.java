@@ -31,11 +31,11 @@ public class lambdaTest {
     @Test
     public void test1(){
         String[] str = {"1","2","3","4"};
-        List<String> list = Arrays.asList(str);
+        List<String> list1 = Arrays.asList(str);
         //使用lambda表达式以及函数操作
-        list.forEach((s)->System.out.println(s+";"));
+        list1.forEach((s)->System.out.println(s+";"));
         //在java8中使用双冒号操作符
-        list.forEach(System.out::print);
+        list1.forEach(System.out::print);
 
         System.out.println("");
     }

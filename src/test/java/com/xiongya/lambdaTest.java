@@ -3,6 +3,12 @@ package com.xiongya;
 import com.xiongya.entity.User;
 import org.junit.Test;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -12,6 +18,37 @@ import java.util.stream.Collectors;
  * @Date create by 2019-04-04 15:38
  */
 public class lambdaTest {
+
+    public static void main(String[] args) {
+//        System.out.println("aaaaaaa");
+//        new Thread(() -> {
+//            try {
+//                Thread.sleep(5000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            System.out.println("bbbbbb");
+//        }
+//        ).start();
+//        System.out.println("ccccc");
+//        return;
+        System.out.println(args.length);
+        System.out.println(args[0]);
+        System.out.println(args[1]);
+    }
+
+    @Test
+    public void test123() {
+        new lambdaTest().B();
+    }
+
+    public void B() {
+        new lambdaTest().A();
+    }
+
+    public static void A() {
+        System.out.println("aaaaa");
+    }
 
     static List<User> list = new ArrayList<User>(){
         {
@@ -24,6 +61,92 @@ public class lambdaTest {
             add(new User("a44","b2"));
         }
     };
+
+    @Test
+    public void test22() throws IOException {
+        String hello = "hello world";
+        FileOutputStream stream = new FileOutputStream("/Users/xinshiji/Desktop/hello.txt");
+        FileChannel channel = stream.getChannel();
+        ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
+        byteBuffer.put(hello.getBytes());
+        byteBuffer.flip();
+        channel.write(byteBuffer);
+        stream.close();
+    }
+
+    @Test
+    public void test21() {
+        //list.removeIf(user -> "a".equals(user.getUserName()));
+        //System.out.println(list);
+        Iterator<User> it = list.iterator();
+        while (it.hasNext()) {
+            User user = it.next();
+            if ("a".equals(user.getUserName())) {
+                it.remove();
+            }
+        }
+        System.out.println(list);
+    }
+
+    @Test
+    public void test20() {
+        List<String> list = new ArrayList<>();
+        list = null;
+        for (String s : list) {
+            System.out.println("211111");
+        }
+    }
+
+    @Test
+    public void test19() {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(3);
+        list.add(2);
+        list.sort((a, b) -> b - a);
+        System.out.println(list);
+    }
+
+    @Test
+    public void test18() {
+        String str1 = new String("111").intern();
+        String str2 = new String("111").intern();
+        System.out.println(str1 == str2);
+    }
+
+    @Test
+    public void test17() {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(new Date());
+        System.out.println(calendar.getActualMaximum(Calendar.DAY_OF_MONTH));
+            //return calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
+
+        }
+
+    @Test
+    public void a() {
+        System.out.println("aaaaaaa");
+        new Thread(() -> {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("bbbbbb");
+        }
+        ).start();
+        System.out.println("ccccc");
+        //return 1;
+    }
+
+    @Test
+    public void test16() {
+        Set<Integer> set = new HashSet<>();
+        boolean a = set.add(1);
+        boolean b = set.add(1);
+        System.out.println(a);
+        System.out.println(b);
+    }
 
     /**
      * lambda表达式foreach两种遍历方式
@@ -152,6 +275,9 @@ public class lambdaTest {
         System.out.println(treeSet);
         Integer i = list.parallelStream().mapToInt(p->p.getUserName().length()).sum();
         System.out.println(i);
+
+        BigDecimal b = new BigDecimal("2.00");
+        b = b.setScale(0, BigDecimal.ROUND_DOWN);
     }
 
 
